@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\NTFS">
+      <UniqueIdentifier>{ffd67c2d-aa3c-4b1a-ab34-0893664cf819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FAT32">
+      <UniqueIdentifier>{19d8e74c-c2d5-4527-9f02-168a157999b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\NTFS">
+      <UniqueIdentifier>{5a0ecb77-6683-40a9-a8e5-1f1102bef7a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FAT32">
+      <UniqueIdentifier>{90bc812f-a94b-4f92-9863-40bc090adae8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirEntry.h">
+      <Filter>Header Files\FAT32</Filter>
+    </ClInclude>
+    <ClInclude Include="FAT32_BS.h">
+      <Filter>Header Files\FAT32</Filter>
+    </ClInclude>
+    <ClInclude Include="VolumeFAT.h">
+      <Filter>Header Files\FAT32</Filter>
+    </ClInclude>
+    <ClInclude Include="EntryType.h">
+      <Filter>Header Files\NTFS</Filter>
+    </ClInclude>
+    <ClInclude Include="MFT_Record.h">
+      <Filter>Header Files\NTFS</Filter>
+    </ClInclude>
+    <ClInclude Include="NTFS_BS.h">
+      <Filter>Header Files\NTFS</Filter>
+    </ClInclude>
+    <ClInclude Include="VolumeNTFS.h">
+      <Filter>Header Files\NTFS</Filter>
+    </ClInclude>
+    <ClInclude Include="generalLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirEntry.cpp">
+      <Filter>Resource Files\FAT32</Filter>
+    </ClCompile>
+    <ClCompile Include="FAT32_BS.cpp">
+      <Filter>Resource Files\FAT32</Filter>
+    </ClCompile>
+    <ClCompile Include="VolumeFAT.cpp">
+      <Filter>Resource Files\FAT32</Filter>
+    </ClCompile>
+    <ClCompile Include="MFT_Record.cpp">
+      <Filter>Resource Files\NTFS</Filter>
+    </ClCompile>
+    <ClCompile Include="NTFS_BS.cpp">
+      <Filter>Resource Files\NTFS</Filter>
+    </ClCompile>
+    <ClCompile Include="VolumeNTFS.cpp">
+      <Filter>Resource Files\NTFS</Filter>
+    </ClCompile>
+    <ClCompile Include="generalLib.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
